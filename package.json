@@ -1,0 +1,21 @@
+{
+    "name": "murky-comet-vscode",
+    "displayName": "Murky Comet",
+    "description": "Murky Comet theme for VSCode based on New Moon",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Murky Comet",
+                "uiTheme": "vs-dark",
+                "path": "./themes/murky-comet-color-theme.json"
+            }
+        ]
+    }
+}
